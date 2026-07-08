@@ -68,8 +68,8 @@ I'm a software engineer focused on building efficient, research-aligned ML infra
 ## Let's Connect
 
 - **GitHub**: [upcomingtrillioner12-design](https://github.com/upcomingtrillioner12-design)
-- **Email**: jdsingh@example.com  
-- **LinkedIn**: [Your LinkedIn Profile]
+- **Email**: jaydip.singh@gmail.com  
+- **LinkedIn**: [Jaydip Singh](https://www.linkedin.com/in/jaydip-singh-15714546/)
 
 ---
 
