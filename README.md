@@ -43,6 +43,25 @@ Aligned with frontier SLM research (June-July 2026):
 - [Project Reference](https://github.com/upcomingtrillioner12-design/subword_tokenizer/blob/main/doc/project_reference.md)
 - [GitHub Repository](https://github.com/upcomingtrillioner12-design/subword_tokenizer)
 
+### [Agentic Video Generator (Multi-Agent Video Pipeline)](https://github.com/JaydipSingh/agentic-video-generator)
+**End-to-End Agentic Media Generation Platform**
+
+A production-style multi-agent application that converts story prompts into generated videos using a checkpointed LangGraph pipeline, async job processing, and modular provider adapters.
+**Key Contributions:**
+- Architected a 6-node LangGraph workflow (director -> storyboard -> asset_generator -> voice -> editor -> critic)
+- Implemented durable checkpointing with Postgres + Redis cache and resume endpoint (POST /jobs/{job_id}/resume)
+- Built FastAPI backend with queue-backed asynchronous execution and job status polling
+- Added dual frontend support: Streamlit UI and modern React UI with auto-polling, resume action, and video preview
+- Integrated ffmpeg rendering pipeline with scene composition, concat workflow, and narration muxing
+**Technical Highlights:**
+- **Tech Stack**: FastAPI, LangGraph, SQLAlchemy, Redis, Postgres, ffmpeg, Streamlit, React, Tailwind CSS
+- **Resilience**: Node-level checkpoints, resume routing, fallback providers for offline-safe execution
+- **Architecture**: API + worker + queue + provider abstraction + rendering pipeline + UI parity across Python/React
+- **Documentation**: Mermaid architecture diagrams + LaTeX status report with generated PDF
+**Resources:**
+- [GitHub Repository](https://github.com/JaydipSingh/agentic-video-generator)
+- [Portfolio Repository](https://github.com/JaydipSingh/portfolio)
+
 ---
 
 ## Skills & Technologies
@@ -73,4 +92,4 @@ I'm a software engineer focused on building efficient, research-aligned ML infra
 
 ---
 
-**Last Updated:** July 5, 2026
+**Last Updated:** July 10, 2026

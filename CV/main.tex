@@ -62,8 +62,14 @@ Featured portfolio: \href{https://github.com/JaydipSingh/portfolio}{github.com/J
     \item Implemented checkpoint auto-ranking and stream retry/backoff logic, improving reliability for unattended arXiv-based training workflows.
     \item \href{https://github.com/JaydipSingh/subword_tokenizer}{GitHub Repo} $|$ \href{https://github.com/JaydipSingh/portfolio}{Portfolio}
   \end{itemize}
-  \item \textbf{Agentic AI Enterprise Workflow} (LangGraph, CrewAI, OpenAI Agents SDK) \\
-  \textit{Details to be expanded.}
+  \item \textbf{Agentic Video Generator} (FastAPI, LangGraph, Redis, Postgres, ffmpeg, Streamlit, React)
+  \begin{itemize}[leftmargin=0.45cm]
+    \item Built an end-to-end multi-agent video generation pipeline that transforms story prompts into rendered MP4 outputs via a checkpointed LangGraph workflow.
+    \item Implemented asynchronous API + worker architecture with Redis queue and Postgres-backed job state for reliable long-running generation tasks.
+    \item Added node-level checkpoint persistence (Redis cache + Postgres durable store) with resume endpoint support to recover from mid-pipeline failures.
+    \item Delivered two production-ready UIs (Streamlit and React) with submission forms, status polling, resume action, and in-app video preview.
+    \item \href{https://github.com/JaydipSingh/agentic-video-generator}{GitHub Repo} $|$ \href{https://github.com/JaydipSingh/portfolio}{Portfolio}
+  \end{itemize}
   \item \textbf{RAG/Monitoring System} (vector DB, retrieval, evaluation) \\
   \textit{Details to be expanded.}
 \end{itemize}
